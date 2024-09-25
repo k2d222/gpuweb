@@ -12927,7 +12927,7 @@ WGSL provides two kinds of value constructors:
 
 ### Zero Value Built-in Functions ### {#zero-value-builtin-function}
 
-Each [=type/concrete=], [=constructible=] *T* has a unique <dfn noexport>zero value</dfn>,
+Each [=type/concrete=], [=constructible=] type *T* has a unique <dfn noexport>zero value</dfn>,
 and a corresponding built-in function written in WGSL as the type followed by an empty pair of parentheses: *T* `()`.
 [=Abstract numeric types=] also have zero values, but there are no built-in functions to access them.
 
